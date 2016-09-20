@@ -1,0 +1,16 @@
+#main {
+  margin: 1em;
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+nav {
+  max-height: none;
+  height: auto;
+  background-color: #15284b;
+}
+
+nav .brand .mark-tier-2 img {
+  max-height: 100px;
+  height: 100%;
+}

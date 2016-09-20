@@ -1,0 +1,17 @@
+name = Materialize
+description = Aurora subtheme for materialize css.
+core = 7.x
+base theme = aurora
+
+regions[header]         = Header
+regions[main_prefix]    = Main Region Prefix
+regions[content]        = Main
+regions[main_suffix]    = Main Region Suffix
+regions[footer]         = Footer
+
+stylesheets[all][] = dist/css/styles.css
+stylesheets[all][] = dist/css/tweaks.css
+
+scripts[] = dist/js/third-party.js
+scripts[] = dist/js/scripts.js
+scripts[] = dist/js/tweaks.js
